@@ -7,6 +7,7 @@ A personal collection of my Claude skills for thinking, deciding, focusing, and 
 | Skill | What it does |
 |---|---|
 | [decision-journal](skills/decision-journal/) | Capture meaningful decisions — the call, reasoning, assumptions, and confidence — for later calibration review. |
+| [designed-for-women](skills/designed-for-women/) | A lens for advice to women that targets structural reality instead of recasting structural penalties as personal failings. |
 | [draft-sharpener](skills/draft-sharpener/) | Tighten existing drafts: cut hedges and clichés, flag weak arguments, sharpen structure. |
 | [first-principles-thinking](skills/first-principles-thinking/) | Coach through reframing hard problems from the ground up, with assumption inventories and templates. |
 | [focus-coach](skills/focus-coach/) | Science-grounded coaching on attention, deep work, and flow. |

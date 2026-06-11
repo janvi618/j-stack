@@ -37,6 +37,9 @@ Grouped by the kind of need. (Skills evolve — if the installed set differs fro
 - **focus-coach** — attention, deep work, distraction, procrastination, "my brain feels fried," can't concentrate.
 - **retention-companion** — actually remembering what you read/learn; notes, recall, spaced review, "it won't stick."
 
+### Cross-cutting lenses
+- **designed-for-women** — applies quietly whenever a woman asks for advice in career, power, friendship, or health; reframes male-default advice toward structural reality. Pairs with (rather than replaces) the domain skills above.
+
 ### Producing and improving written work
 - **draft-sharpener** — editing/critiquing/tightening something *already written*; "make this sharper," "poke holes in this."
 - **internal-comms** *(if present)* — writing company-format internal communications from scratch (status reports, leadership updates, FAQs).
