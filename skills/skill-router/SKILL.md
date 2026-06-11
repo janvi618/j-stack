@@ -37,6 +37,14 @@ Grouped by the kind of need. (Skills evolve — if the installed set differs fro
 - **focus-coach** — attention, deep work, distraction, procrastination, "my brain feels fried," can't concentrate.
 - **retention-companion** — actually remembering what you read/learn; notes, recall, spaced review, "it won't stick."
 
+### Mastering and teaching a topic (corporate-learning suite)
+- **teach-anything** — the front door: "help me master X so I can teach my team"; runs all five stages end to end.
+- **topic-mastery** — getting up to speed on a topic well enough to teach it; produces a Mastery Brief.
+- **teaching-narrative** — turning understanding into a spoken storyline with hooks and example banks.
+- **workshop-designer** — designing the actual session: objectives, timed agenda, exercises, materials.
+- **facilitation-kit** — prepping to facilitate: objection handling, facilitation moves, cheat sheet.
+- **teach-readiness-check** — "quiz me / am I ready to teach this"; self-test and gap analysis.
+
 ### Cross-cutting lenses
 - **designed-for-women** — applies quietly whenever a woman asks for advice in career, power, friendship, or health; reframes male-default advice toward structural reality. Pairs with (rather than replaces) the domain skills above.
 

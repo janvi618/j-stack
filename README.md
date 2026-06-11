@@ -21,6 +21,10 @@ A personal collection of my Claude skills for thinking, deciding, focusing, and 
 | [skill-router](skills/skill-router/) | Meta-skill: routes ambiguous requests to the right skill in the library. |
 | [token-optimization](skills/token-optimization/) | Diagnose and reduce token cost, latency, and quality problems in LLM systems. |
 
+## Corporate Learning Suite
+
+A grouped set of six skills in [skills/corporate-learning/](skills/corporate-learning/) that take you from "I sort of understand this topic" to "I can confidently run a workshop on it." Start with **teach-anything** for the full journey, or jump straight to a stage: **topic-mastery** (understand it), **teaching-narrative** (make it teachable), **workshop-designer** (design the session), **facilitation-kit** (prep to facilitate), **teach-readiness-check** (test yourself). See the [suite README](skills/corporate-learning/README.md) for details. Each skill is self-contained and independently installable.
+
 ## Usage
 
 Each folder follows the Claude skill format: a `SKILL.md` with a name and triggering description, plus optional reference material. Upload a skill folder to a Claude environment that supports user skills, and Claude will invoke it when a request matches its description.
