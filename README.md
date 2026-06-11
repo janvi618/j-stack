@@ -1,6 +1,6 @@
 # j-stack
 
-A personal collection of Claude skills for thinking, deciding, focusing, and leading. Each skill is a self-contained folder with a `SKILL.md` (and supporting reference files where needed) that can be loaded into Claude to extend what it knows how to do.
+A personal collection of my Claude skills for thinking, deciding, focusing, and leading. Each skill is a self-contained folder with a `SKILL.md` (and supporting reference files where needed) that can be loaded into Claude to extend what it knows how to do.
 
 ## Skills
 
