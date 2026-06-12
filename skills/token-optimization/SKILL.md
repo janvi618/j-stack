@@ -1,6 +1,6 @@
 ---
 name: token-optimization
-description: Diagnose and reduce token cost, latency, and quality problems in LLM systems — prompts, RAG pipelines, agents, multi-agent harnesses, and reusable skills. Use this skill whenever the user wants to cut API costs, speed up time-to-first-token, fix "context rot" or quality degradation in long contexts, design a caching or model-routing strategy, optimize a RAG/retrieval setup, tighten tool definitions or tool outputs, budget tokens across an agent workflow, or audit a prompt/skill/pipeline for waste — even if they only say something vague like "this is getting expensive," "my agent burns too many tokens," "responses are slow," or "how do I make this cheaper without making it worse." Also trigger for questions about prompt caching, LLMLingua/prompt compression, semantic caching, chunking, reranking, compaction, agent memory, or progressive disclosure.
+description: Diagnose and reduce token cost, latency, and quality problems in LLM systems — prompts, RAG pipelines, agents, multi-agent harnesses, and reusable skills. Use this skill whenever the user wants to cut API costs, speed up time-to-first-token, fix "context rot" or quality degradation in long contexts, design a caching or model-routing strategy, optimize a RAG/retrieval setup, tighten tool definitions or tool outputs, budget tokens across an agent workflow, or audit a prompt or pipeline for waste — even if they only say something vague like "this is getting expensive," "my agent burns too many tokens," or "responses are slow." Also trigger for questions about prompt caching, LLMLingua/prompt compression, semantic caching, chunking, reranking, compaction, agent memory, or progressive disclosure. Do not use for skill-quality audits, skill creation, or agent-architecture soundness reviews (other skills cover those) — this skill's lens is strictly token economics — cost, latency, context budget.
 ---
 
 # Token Optimization for LLM Systems
@@ -24,6 +24,16 @@ So the discipline is **spending tokens where they pay off** and cutting them eve
 ## How to use this skill
 
 This is a **diagnostic-and-design** skill, not a fixed pipeline. Figure out where the user is, then reach for the right techniques. The reference files hold the depth; load them as needed (this is itself progressive disclosure — don't pull all of them into context at once).
+
+### What the user should walk away with (output contract)
+
+Unless they ask for something narrower, a token-optimization engagement delivers three things:
+
+1. **A baseline diagnosis** — where the tokens actually go (input vs output, by feature/workflow, p95 and mean), or, if nothing is instrumented, instrumentation as the explicit first recommendation.
+2. **Recommendations ranked by leverage**, each carrying its tradeoff: the technique, the expected impact (directional), the when-NOT condition, and the new failure mode it introduces. Never hand over a list of optimizations without their risks — that's how silent quality regressions ship.
+3. **A sequenced rollout plan** following the leverage ordering below, with each step gated on a quality eval, plus what to monitor afterward (e.g., cache hit rate, p95 cost, task success).
+
+A response that names techniques without the diagnosis, the tradeoffs, or the measurement gates is incomplete.
 
 ### Step 1 — Diagnose before prescribing
 
@@ -95,4 +105,4 @@ The full table with "when A wins / when B wins" is in `references/examples-and-c
 9. **Budget the agentic tax** (~4x agents, ~15x multi-agent) and add circuit breakers + per-run cost caps.
 10. **Measure quality before and after.** A good dashboard number hiding a silent quality regression is a failure, not a win.
 
-> **Currency note:** Specific prices, context-window sizes, and model names (Claude 4.x, GPT-5.x, Gemini 2.5/3.x) and benchmark figures (RouteLLM 85%/95%, Anthropic 49%/67% retrieval, LLMLingua 20x, etc.) come from vendor docs and the source papers as of mid-2026 and change frequently. Treat benchmark numbers as *directional*, not guaranteed for any given workload, and verify pricing against official pages before budgeting. OpenTelemetry GenAI conventions are still experimental and attribute names may change.
+> **Currency rule (active, not a disclaimer):** Specific prices, context-window sizes, model names, and benchmark figures in this skill and its references date from mid-2026 and rot quickly. Before quoting a price, discount rate, or model name in an actual recommendation, **verify it against the provider's official pages if web access is available in the session.** If it isn't, present figures explicitly as "directional, as of mid-2026 — verify before budgeting," and never let a stale number anchor a cost projection the user will take to a stakeholder. Benchmark results (RouteLLM, retrieval-failure reductions, LLMLingua ratios) are workload-dependent — directional always, guaranteed never. OpenTelemetry GenAI conventions are still experimental and attribute names may change.

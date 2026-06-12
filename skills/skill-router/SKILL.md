@@ -24,6 +24,7 @@ Grouped by the kind of need. (Skills evolve — if the installed set differs fro
 
 ### Thinking through a hard or stuck problem
 - **first-principles-thinking** — a problem that keeps failing or needs rebuilding from fundamentals; "what are we assuming," "rethink from scratch."
+- **reframe-problem** — turning a problem statement into sharper "How might we" questions; the framing itself is off.
 - **future-focused-leadership** — strategic foresight, scenario planning, weak signals, short-term vs. long-term, pitching a future bet.
 - **decision-journal** — *capturing* a decision and its reasoning to check later; calibration over time. (Often the *next* step after the thinking skills above produce a decision.)
 
@@ -36,35 +37,29 @@ Grouped by the kind of need. (Skills evolve — if the installed set differs fro
 ### The user's own focus, learning, and knowledge
 - **focus-coach** — attention, deep work, distraction, procrastination, "my brain feels fried," can't concentrate.
 - **retention-companion** — actually remembering what you read/learn; notes, recall, spaced review, "it won't stick."
-
-### Mastering and teaching a topic (corporate-learning suite)
-- **teach-anything** — the front door: "help me master X so I can teach my team"; runs all five stages end to end.
-- **topic-mastery** — getting up to speed on a topic well enough to teach it; produces a Mastery Brief.
-- **teaching-narrative** — turning understanding into a spoken storyline with hooks and example banks.
-- **workshop-designer** — designing the actual session: objectives, timed agenda, exercises, materials.
-- **facilitation-kit** — prepping to facilitate: objection handling, facilitation moves, cheat sheet.
-- **teach-readiness-check** — "quiz me / am I ready to teach this"; self-test and gap analysis.
-
-### Cross-cutting lenses
-- **designed-for-women** — applies quietly whenever a woman asks for advice in career, power, friendship, or health; reframes male-default advice toward structural reality. Pairs with (rather than replaces) the domain skills above.
+- **jbrain** — Janavi's personal knowledge archive: retrieving and connecting her own articles, notes, journals, people, and reflections across her life.
 
 ### Producing and improving written work
 - **draft-sharpener** — editing/critiquing/tightening something *already written*; "make this sharper," "poke holes in this."
 - **internal-comms** *(if present)* — writing company-format internal communications from scratch (status reports, leadership updates, FAQs).
+- **build-my-harness** — setting up a structured project/context folder so future AI sessions have rich context; recurring work setups.
 
 ### Technical / specialist
 - **token-optimization** — cutting LLM cost/latency, RAG and agent efficiency, prompt/context optimization.
 - **harness-design-review** — reviewing/designing the infrastructure around an LLM *agent* (memory, tools, verification, multi-agent).
+- **vertex-app-planner** — turning an app idea into a structured Vertex AI build plan.
+- **general-mills-design** — General Mills brand design language for UI/artifacts/decks.
 
 ## Common confusions worth resolving fast
 
 These are the seams where requests get mis-routed — knowing them speeds up the call:
 
 - **"I can't get this done"** → focus problem (focus-coach), stuck problem (first-principles), or a thing to hand off (power-and-influence / delegation in high-performing-teams)? Ask which.
-- **"Help me decide"** → if they want to *work through* it: first-principles-thinking. If they want to *record* the call and check it later: decision-journal. Often both, in sequence.
+- **"Help me decide"** → if they want to *work through* it: first-principles or reframe-problem. If they want to *record* the call and check it later: decision-journal. Often both, in sequence.
 - **A document request** → *writing it from scratch* (internal-comms, or the production skills) vs. *improving an existing draft* (draft-sharpener). The deciding question: does the draft already exist?
 - **"My team keeps [problem]"** → almost always high-performing-teams (dynamics), not a process or tooling skill.
-- **"Remember / keep track"** → of *what I'm learning* (retention-companion), of *people* (relationship-keeper), or of *a decision* (decision-journal)? Three different homes for "remember."
+- **"Remember / keep track"** → of *what I'm learning* (retention-companion), of *people* (relationship-keeper), of *my own past content* (jbrain), or of *a decision* (decision-journal)? Four different homes for "remember."
+- **"Harness"** → a *personal-context project folder* (build-my-harness) vs. an *LLM agent's runtime infrastructure* (harness-design-review). Same word, unrelated skills — disambiguate immediately.
 
 ## Tone and stance
 
