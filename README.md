@@ -14,11 +14,12 @@ A personal collection of my Claude skills for thinking, deciding, focusing, and 
 | [future-focused-leadership](skills/future-focused-leadership/) | Strategic foresight: scenario planning, weak signals, pre-mortems, and foresight artifacts. |
 | [harness-design-review](skills/harness-design-review/) | Structured checklist for designing and reviewing the runtime infrastructure around LLM agents. |
 | [high-performing-teams](skills/high-performing-teams/) | Team leadership coaching grounded in cross-domain research (aviation CRM, NASA, SRE, Pixar). |
+| [jk-skill-creator](skills/jk-skill-creator/) | Create, refine, and benchmark skills — with elicitation of expert heuristics, eval scripts, and packaging tools. |
 | [meeting-prep-debrief](skills/meeting-prep-debrief/) | Prep for meetings (attendees, history, objectives) and debrief afterward (decisions, owners, follow-ups). |
 | [power-and-influence](skills/power-and-influence/) | Navigate workplace power dynamics, persuasion, and organizational politics. |
-| [relationship-keeper](skills/relationship-keeper/) | Stay genuinely connected: track owed replies, lapsed contacts, and follow-up commitments. |
 | [retention-companion](skills/retention-companion/) | Turn what you read and watch into durable notes, testable recall, and scheduled review. |
 | [secondbrain](skills/secondbrain/) | Build, use, and rescue a second brain: capture, organize (PARA), distill, connect, and express knowledge so past thinking compounds into output. |
+| [skill-improver](skills/skill-improver/) | Audit and upgrade existing skills: diagnose under/over-triggering and inconsistent output, then rewrite. |
 | [skill-router](skills/skill-router/) | Meta-skill: routes ambiguous requests to the right skill in the library. |
 | [token-optimization](skills/token-optimization/) | Diagnose and reduce token cost, latency, and quality problems in LLM systems. |
 
